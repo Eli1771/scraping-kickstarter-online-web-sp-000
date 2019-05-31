@@ -8,7 +8,7 @@ def create_project_hash
   
   binding.pry
   
-  projects = kickstarter.css('li.project.grid_4')
+  #projects = kickstarter.css('li.project.grid_4')
   #projects.each do |p|
     :projects[p.css('.bbcard_name strong')] = {}
   #end 
